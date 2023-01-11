@@ -46,10 +46,7 @@ func main() {
 	git stash => การ save การเปลี่ยนแปลงของเราไว้ก่อน สามารถ restore กลับได้ทุกเมื่อ
 	ex. git stash save "comment message"
 		git stash pop [index]
-
-
-
-
-
+		git stash list
+		git stash drop [index]
 
 */
